@@ -29,8 +29,15 @@ textarea {
    width: 400px;
    height: 100px;
    display: block;
-   margin: 10px 0px 10px 20px;
+   margin-top: 10px;
    padding: 3px;
+}
+
+.centered-textarea textarea{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
 }
 
 ul {

@@ -3,7 +3,7 @@
 <head>
    <meta charset="utf-8">
    <title>Coding Challenge 7-2</title>
-   <link href="code7-2_forms.css" rel="stylesheet"/>
+   <link href="Feedback_Form.css" rel="stylesheet"/>
    <script src="formsubmit.js"></script>
 </head>
 <body>
@@ -67,8 +67,8 @@
                Very Unlikely<input type="range" min="0" max="10" value="5" step="1" name="q4"/>Very Likely
             </div>
          </li> 
-         <li>
-           <label for="q5text">Provide any suggestions for the next conference:</label>
+         <li class="centered-textarea">
+           <label for="q5text">Provide any suggestions for the next conference:</label><br>
            <textarea id="q5text" name="q5" placeholder="enter your suggestions here"></textarea>
          </li>
          <ul>
@@ -76,6 +76,5 @@
          </ul>     
       </ol>
       </form>
-
 </body>
 </html>
